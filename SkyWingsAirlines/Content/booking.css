@@ -183,6 +183,7 @@ body {
 .seat-list option { padding: 7px 9px; border-radius: 5px; }
 .seat-list option:checked { color: var(--white); background: var(--blue) linear-gradient(0deg, var(--blue), var(--blue)); }
 .validation-message {
+    display: block;
     margin: 24px 42px 0;
     padding: 13px 16px;
     border: 1px solid #fecdca;

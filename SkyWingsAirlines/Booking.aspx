@@ -26,7 +26,7 @@
         </header>
 
         <main class="page-shell">
-            <section class="booking-card" aria-labelledby="formHeading">
+            <section class="booking-card" aria-labelledby="lblFormHeading">
                 <div class="card-heading">
                     <div>
                         <span class="step-label">Booking request</span>
@@ -39,7 +39,7 @@
                 <asp:Label ID="lblValidationMessage" runat="server" CssClass="validation-message"
                     Visible="false" role="alert" />
 
-                <section class="form-section" aria-labelledby="passengerHeading">
+                <section class="form-section" aria-labelledby="lblPassengerHeading">
                     <div class="section-heading">
                         <span class="section-icon" aria-hidden="true">01</span>
                         <asp:Label ID="lblPassengerHeading" runat="server" ClientIDMode="Static"
@@ -69,7 +69,7 @@
                     </div>
                 </section>
 
-                <section class="form-section" aria-labelledby="flightHeading">
+                <section class="form-section" aria-labelledby="lblFlightHeading">
                     <div class="section-heading">
                         <span class="section-icon" aria-hidden="true">02</span>
                         <asp:Label ID="lblFlightHeading" runat="server" ClientIDMode="Static"
@@ -104,7 +104,7 @@
                     </div>
                 </section>
 
-                <section class="form-section" aria-labelledby="servicesHeading">
+                <section class="form-section" aria-labelledby="lblServicesHeading">
                     <div class="section-heading">
                         <span class="section-icon" aria-hidden="true">03</span>
                         <asp:Label ID="lblServicesHeading" runat="server" ClientIDMode="Static"
