@@ -126,7 +126,7 @@
                 <div class="form-actions">
                     <p>Review your details in the summary before continuing.</p>
                     <asp:Button ID="btnSubmit" runat="server" Text="Submit Booking"
-                        CssClass="submit-button" />
+                        CssClass="submit-button" OnClick="btnSubmit_Click" />
                 </div>
             </section>
             <p class="prototype-note">Prototype booking form for academic demonstration only.</p>
