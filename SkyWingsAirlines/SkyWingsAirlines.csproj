@@ -40,6 +40,7 @@
     <Content Include="Content\booking.css" />
     <Content Include="Web.config" />
     <Content Include="Documentation\Assignment-Report.md" />
+    <Content Include="Documentation\Screenshots\README.md" />
     <None Include="Documentation\Screenshots\.gitkeep" />
   </ItemGroup>
   <ItemGroup>
