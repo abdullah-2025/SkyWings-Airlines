@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "SkyWings: Build",
+      "type": "shell",
+      "command": "xbuild",
+      "args": [
+        "${workspaceFolder}/SkyWingsAirlines.sln",
+        "/p:Configuration=Debug"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "SkyWings: Run on macOS",
+      "type": "shell",
+      "command": "${workspaceFolder}/scripts/run-macos.sh",
+      "args": ["--open"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

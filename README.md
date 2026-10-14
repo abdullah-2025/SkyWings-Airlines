@@ -36,7 +36,20 @@ SkyWingsAirlines/
 
 ## Run the application
 
-Open `SkyWingsAirlines.sln` in Visual Studio 2022 on Windows, restore/build the solution, and run it with IIS Express. `Booking.aspx` is configured as the default document. See [SETUP.md](SETUP.md) for full prerequisites and troubleshooting.
+On this macOS development machine, run:
+
+```bash
+./scripts/run-macos.sh --open
+```
+
+The compatibility server opens the form at
+`http://127.0.0.1:50421/Booking.aspx`. In VS Code, the same commands are
+available through **Tasks: Run Task** as **SkyWings: Build** and
+**SkyWings: Run on macOS**.
+
+For the assignment's native Microsoft environment, open
+`SkyWingsAirlines.sln` in Visual Studio 2022 on Windows and run it with IIS
+Express. See [SETUP.md](SETUP.md) for both environments and troubleshooting.
 
 ## Documentation
 
